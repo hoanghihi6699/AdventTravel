@@ -1,0 +1,124 @@
+body {
+  background: linear-gradient(90deg, white 21px, transparent 1%) center, linear-gradient(white 21px, transparent 1%) center, #f0a35e;
+  background-size: 22px 22px;
+}
+
+.link__wheat {
+  color: #866526;
+}
+
+.link__wheat:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.link__white {
+  color: white;
+}
+
+.link__white:hover {
+  color: #b16e4b;
+  text-decoration: none;
+}
+
+.link__black {
+  color: black;
+}
+
+.link__black:hover {
+  color: #866526 !important;
+  text-decoration: none;
+}
+
+.typograp__sz-1 {
+  font-size: 32px !important;
+}
+
+.typograp__sz-2 {
+  font-size: 28px !important;
+}
+
+.typograp__sz-3 {
+  font-size: 24px !important;
+}
+
+.typograp__sz-4 {
+  font-size: 22px !important;
+}
+
+.typograp__sz-5 {
+  font-size: 18px !important;
+}
+
+.typograp__sz-6 {
+  font-size: 16px !important;
+}
+
+.typograp__sz-7 {
+  font-size: 14px !important;
+}
+
+.typograp__sz-8 {
+  font-size: 12px !important;
+}
+
+.titile__title-1 {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.titile__title-2 {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.titile__title-3 {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.titile__title-4 {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.rotate-45 {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.rotate-90 {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.rotate-135 {
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+.rotate-180 {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.pin-r {
+  right: 0;
+}
+
+.pin-l {
+  left: 0;
+}
+
+.pin-t {
+  top: 0;
+}
+
+.pin-b {
+  bottom: 0;
+}
+
+.absolute {
+  position: absolute;
+}
+/*# sourceMappingURL=template.css.map */

@@ -1,0 +1,71 @@
+/*font-family: 'Lobster', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Baloo Tamma 2', cursive;
+font-family: 'Baloo Bhaina 2', cursive; */
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@700&display=swap");
+
+* {
+    font-family: "Baloo Bhaina 2", cursive;
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+}
+
+#navbar .navbar {
+    height: 100px;
+}
+
+#navbar .navbar a.navbar-brand img {
+    height: 80px;
+}
+
+nav,
+.nav {
+    background-color: #fff;
+}
+
+
+.search {
+    position: relative;
+    display: inline-block;
+    color: black;
+    padding: 14px 16px;
+    outline: none;
+}
+.search-bar {
+    position: absolute;
+    display: none;
+    right: 0;
+    top: 45px;
+}
+input[type="text"] {
+    width: 120px;
+    margin-top: 15px;
+    box-sizing: border-box;
+    border: 2px solid #866526;
+    border-radius: 4px;
+    font-size: 12px;
+    outline: none;
+    padding: 12px 14px;
+    transition: width 0.4s ease-in-out;
+}
+
+.search:hover {
+    background-color: white;
+    color: black;
+}
+.search:hover .search-bar {
+    display: block;
+}
+form input[type="text"]:focus {
+    width: 200px;
+    background-color: white;
+}

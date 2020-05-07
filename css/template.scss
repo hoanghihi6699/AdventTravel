@@ -1,0 +1,130 @@
+$bg-color: rgb(255, 255, 255);
+$dot-color: #f0a35e;
+$color-typo-0: #000;
+$color-typo-1: #fff;
+$color-typo-2: #f3ddb3;
+$color-typo-3: #c5d6c0;
+$color-typo-4: #fdcf76;
+$color-typo-5: #f0a35e;
+$color-typo-6: #b16e4b;
+$color-typo-gray: #555;
+$color-typo-light-grey: #ccc;
+$color-link: #866526;
+
+// Dimensions
+$dot-size: 1px;
+$dot-space: 22px;
+
+body {
+    background: linear-gradient(90deg, $bg-color ($dot-space - $dot-size), transparent 1%) center,
+        linear-gradient($bg-color ($dot-space - $dot-size), transparent 1%) center, $dot-color;
+    background-size: $dot-space $dot-space;
+}
+
+.link {
+    &__wheat {
+        color: $color-link;
+        &:hover{
+            color: black;
+            text-decoration: none;
+        }
+    }
+    &__white {
+        color: white;
+        &:hover{
+            color: $color-typo-6;
+            text-decoration: none;
+        }
+    }
+    &__black {
+        color: black;
+        &:hover{
+            color: $color-link!important;
+            text-decoration: none;
+        }
+    }
+}
+
+.typograp {
+    &__sz-1 {
+        font-size: 32px !important;
+    }
+    &__sz-2 {
+        font-size: 28px !important;
+    }
+    &__sz-3 {
+        font-size: 24px !important;
+    }
+    &__sz-4 {
+        font-size: 22px !important;
+    }
+    &__sz-5 {
+        font-size: 18px !important;
+    }
+    &__sz-6 {
+        font-size: 16px !important;
+    }
+    &__sz-7 {
+        font-size: 14px !important;
+    }
+    &__sz-8 {
+        font-size: 12px !important;
+    }
+}
+
+.titile {
+    &__title-1 {
+        font-weight: 600;
+        font-size: 22px;
+    }
+    &__title-2 {
+        font-weight: 600;
+        font-size: 18px;
+    }
+    &__title-3 {
+        font-weight: 600;
+        font-size: 16px;
+    }
+    &__title-4 {
+        font-weight: 600;
+        font-size: 14px;
+    }
+}
+
+.rotate {
+    &-45 {
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+    &-90 {
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+    &-135 {
+        -webkit-transform: rotate(135deg);
+        transform: rotate(135deg);
+    }
+    &-180 {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+}
+
+.pin {
+    &-r {
+        right: 0;
+    }
+    &-l {
+        left: 0;
+    }
+    &-t {
+        top: 0;
+    }
+    &-b {
+        bottom: 0;
+    }
+}
+
+.absolute {
+    position: absolute;
+}

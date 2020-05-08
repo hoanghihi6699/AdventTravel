@@ -6,12 +6,17 @@ font-family: 'Baloo Bhaina 2', cursive; */
 
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@wght@400;500;600;700&display=swap");
 
 * {
     font-family: "Baloo Bhaina 2", cursive;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 #navbar {
@@ -83,48 +88,44 @@ form input[type="text"]:focus {
     height: 680px;
     background-size: cover;
     background-repeat: no-repeat;
-    transition: transform .2s;
+    transition: transform 0.2s;
 }
 
-#slide #slide-show{
-    transition: .3s;
-
+#slide #slide-show {
+    transition: 0.3s;
 }
 
-.category{
+.category {
     padding-top: 20px;
     padding-bottom: 10px;
     justify-content: center;
 }
 
-.category:hover{
+.category:hover {
     outline: rgba(85, 85, 85, 0.2) 0.01rem solid;
 }
 
-.dfgiua{
+.dfgiua {
     flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.talc{
+.talc {
     text-align: center;
 }
-.mg0a{
+.mg0a {
     margin: 0 auto;
 }
-.pdt10{
+.pdt10 {
     padding-top: 10px;
 }
 
-
-
-
-#footer{
+#footer {
     height: 180px;
     background-color: rgb(235, 235, 235);
 }
 
-#footer .logo img{
+#footer .logo img {
     height: 80px;
 }

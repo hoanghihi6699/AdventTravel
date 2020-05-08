@@ -31,7 +31,7 @@ body {
 }
 
 .typograp {
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .typograp__sz-1 {
@@ -74,6 +74,10 @@ body {
 .typograp__sz-8 {
   font-size: 12px !important;
   text-align: justify;
+}
+
+.typo-title {
+  font-weight: 700;
 }
 
 .titile__title-1 {

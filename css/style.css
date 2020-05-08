@@ -48,3 +48,74 @@
     background-color: #866526;
     color: white;
 }
+
+/*Sologan*/
+#content1 .sologan {
+    position: absolute;
+    top: 600px;
+    z-index: 100;
+    width: 300px;
+    line-height: 1.8;
+}
+
+#content1 .sologan span {
+    background-color: white;
+    box-shadow: 0.4em 0 0 #fff, -0.4em 0 0 #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+/* content2 */
+#content2 .card-img {
+    transform-origin: bottom;
+}
+
+/* Content3 */
+#content3 {
+    padding-top: 60px !important;
+    background-color: #fffaf0;
+    padding-bottom: 90px;
+}
+
+#content3 .img-0 {
+    border: 6px solid #fff;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 30px;
+}
+
+#content3 .card-3 .img-1 {
+    position: relative;
+    height: 180px;
+    z-index: 1;
+    left: -30px;
+    top: -20px;
+    border: 8px solid #fff;
+    -webkit-box-shadow: 14px 10px 39px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 14px 10px 39px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 14px 10px 39px 0px rgba(0, 0, 0, 0.75);
+}
+
+#content3 .card-3 .img-2 {
+    position: absolute;
+    height: 200px;
+    top: 30px;
+    left: 100px;
+    z-index: 3;
+    border: 8px solid #fff;
+    -webkit-box-shadow: 14px 10px 39px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 14px 10px 39px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 14px 10px 39px 0px rgba(0, 0, 0, 0.3);
+}
+
+#content3 .card-3 .img-3 {
+    position: absolute;
+    height: 200px;
+    top: 140px;
+    left: 60px;
+    z-index: 2;
+    border: 8px solid #fff;
+    -webkit-box-shadow: 14px 10px 39px 0px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 14px 10px 39px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 14px 10px 39px 0px rgba(0, 0, 0, 0.4);
+}

@@ -30,36 +30,50 @@ body {
   text-decoration: none;
 }
 
+.typograp {
+  font-weight: 400;
+}
+
 .typograp__sz-1 {
   font-size: 32px !important;
+  text-align: justify;
 }
 
 .typograp__sz-2 {
   font-size: 28px !important;
+  text-align: justify;
+  line-height: 56px;
 }
 
 .typograp__sz-3 {
   font-size: 24px !important;
+  text-align: justify;
 }
 
 .typograp__sz-4 {
   font-size: 22px !important;
+  text-align: justify;
 }
 
 .typograp__sz-5 {
   font-size: 18px !important;
+  text-align: justify;
+  line-height: 36 px;
 }
 
 .typograp__sz-6 {
   font-size: 16px !important;
+  text-align: justify;
 }
 
 .typograp__sz-7 {
   font-size: 14px !important;
+  text-align: justify;
 }
 
 .typograp__sz-8 {
   font-size: 12px !important;
+  text-align: justify;
 }
 
 .titile__title-1 {

@@ -14,24 +14,25 @@ font-family: 'Baloo Bhaina 2', cursive; */
     font-family: "Baloo Bhaina 2", cursive;
 }
 
-#navbar{
+#navbar {
     position: sticky;
     top: 0;
+    background-color: white;
+    z-index: 999;
 }
 
 #navbar .navbar {
-    height: 100px;
+    height: 80px;
 }
 
 #navbar .navbar a.navbar-brand img {
-    height: 80px;
+    height: 60px;
 }
 
 nav,
 .nav {
     background-color: #fff;
 }
-
 
 .search {
     position: relative;
@@ -58,6 +59,12 @@ input[type="text"] {
     transition: width 0.4s ease-in-out;
 }
 
+.btn-search {
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
 .search:hover {
     background-color: white;
     color: black;
@@ -68,4 +75,56 @@ input[type="text"] {
 form input[type="text"]:focus {
     width: 200px;
     background-color: white;
+}
+
+/* Content1 */
+#slide #slide-show {
+    background-position: center center;
+    height: 680px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform .2s;
+}
+
+#slide #slide-show{
+    transition: .3s;
+
+}
+
+.category{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+
+.category:hover{
+    outline: rgba(85, 85, 85, 0.2) 0.01rem solid;
+}
+
+.dfgiua{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.talc{
+    text-align: center;
+}
+.mg0a{
+    margin: 0 auto;
+}
+.pdt10{
+    padding-top: 10px;
+}
+
+
+
+
+#footer{
+    height: 180px;
+    background-color: rgb(235, 235, 235);
+}
+
+#footer .logo img{
+    height: 80px;
 }

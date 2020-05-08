@@ -24,51 +24,62 @@ body {
 .link {
     &__wheat {
         color: $color-link;
-        &:hover{
+        &:hover {
             color: black;
             text-decoration: none;
         }
     }
     &__white {
         color: white;
-        &:hover{
+        &:hover {
             color: $color-typo-6;
             text-decoration: none;
         }
     }
     &__black {
         color: black;
-        &:hover{
-            color: $color-link!important;
+        &:hover {
+            color: $color-link !important;
             text-decoration: none;
         }
     }
 }
 
 .typograp {
+    font-weight: 400;
     &__sz-1 {
         font-size: 32px !important;
+        text-align: justify;
     }
     &__sz-2 {
         font-size: 28px !important;
+        text-align: justify;
+        line-height: 56px;
     }
     &__sz-3 {
         font-size: 24px !important;
+        text-align: justify;
     }
     &__sz-4 {
         font-size: 22px !important;
+        text-align: justify;
     }
     &__sz-5 {
         font-size: 18px !important;
+        text-align: justify;
+        line-height: 36 px;
     }
     &__sz-6 {
         font-size: 16px !important;
+        text-align: justify;
     }
     &__sz-7 {
         font-size: 14px !important;
+        text-align: justify;
     }
     &__sz-8 {
         font-size: 12px !important;
+        text-align: justify;
     }
 }
 

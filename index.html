@@ -10,11 +10,14 @@
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/template.css">
-    <title>Document</title>
+
+    <link rel="icon shortcut" href="img/logo/logobgwhite.png">
+    <title>Adventure Time - Thử Thách Bản Thân</title>
 </head>
 
-<body>
-    <button onclick="srcollToTop();" id="btnToTop" title="Go Go Go"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+<body onload="slideShow()">
+    <button onclick="srcollToTop();" id="btnToTop" title="Go Go Go"><i class="fa fa-arrow-up"
+            aria-hidden="true"></i></button>
     <!-- Navigation -->
     <div class="container">
         <ul class="nav justify-content-end">
@@ -56,21 +59,12 @@
         </ul>
     </div>
     <section id="navbar">
-        <nav class="navbar navbar-expand-sm navbar-light    ">
+        <nav class="navbar navbar-expand-sm navbar-light">
             <div class="container-xl">
                 <a class="navbar-brand m-0" href="#"><img src="img/logo/Asset 1.png" alt=""><span
-                        class="titile__title-1">&nbsp;Adventure Time</span></a>
-                <div class="d-block d-sm-none">
-                    <button class="btn btn-search my-0 mt-2" type="submit"><span class="material-icons">
-                            search
-                        </span></button>
-                    <div class="search-bar">
-                        <form action="#">
-                            <input type="text" name="search" placeholder="Tìm kiếm ở đây...">
-                        </form>
-                    </div>
-                </div>
-                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                        class="titile__title-1" style="font-family: 'Pacifico', cursive;">&nbsp;Adventure
+                        Time</span></a>
+                <button class="navbar-toggler d-md-none" type="button" data-toggle="collapse"
                     data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -93,7 +87,7 @@
                     </ul>
                 </div>
                 <div class="search my-2 mr-0 my-lg-0 d-none d-md-block">
-                    <button class="btn btn-search my-0 mt-2" type="submit"><span class="material-icons">
+                    <button class="btn-search my-0 mt-2" type="submit"><span class="material-icons">
                             search
                         </span></button>
                     <div class="search-bar">
@@ -107,26 +101,165 @@
     </section>
 
     <!-- Content1 -->
-    <section class="content1">
+    <section id="content1">
         <div id="slide">
             <div id="slide-show"
-                style="background-image: linear-gradient(rgba(194, 194, 194, 0.6),rgba(0, 0, 0, 0.6)),url('img/image/nha-trang/nha-trang-5.png');background-position: center center;height: 800px; background-size: cover;background-repeat: no-repeat;">
+                style="background-image: linear-gradient(rgba(136, 100, 33, 0.4),rgba(136, 100, 33, 0.4)),url('img/image/nha-trang/nha-trang-1.jpg');">
             </div>
         </div>
         <div class="container">
-            <div class="main-post row">
-                <div class="col-sm-12 col-md-6 img-header">
-                    <img src="img/image/nha-trang/leo-nui.jpg" alt="">
-                    <h2 class="pin-l pin-b rotate-90 absolute bg-light" style="display: block;">Tour Leo Núi</h2>
-                </div>
-
+            <div class="ml-2 main-post row">
+                <h2 class="sologan">
+                    <span style="font-family: 'Pacifico', cursive;">Adventure Time <br> </span><span>Thêm yêu cuộc
+                        sống</span></h2>
             </div>
         </div>
     </section>
 
+    <!-- Content2 -->
+    <section id="content2" style="margin-bottom: 30px;">
+        <div class="container mt-4">
+            <h2>Hệ thống dịch vụ</h2>
+            <div class="row">
+                <div class="col-6 col-lg-3 mt-2 category">
+                    <div class="dfgiua">
+                        <a href="#" class="link__black">
+                            <div class="card-img talc">
+                                <img class="img img-fluid" src="img/icon/beach-category.png" alt="">
+                            </div>
+                            <div class="title-category">
+                                <h4 class="pdt10">Bãi biển</h4>
+                                <span class="talc">4 Địa điểm</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 mt-2 category">
+                    <div class="dfgiua">
+                        <a href="#" class="link__black">
+                            <div class="card-img talc">
+                                <img class="img img-fluid" src="img/icon/restorant-category.png" alt="">
+                            </div>
+                            <div class="title-category">
+                                <h4 class="pdt10">Nhà hàng</h4>
+                                <div class="talc">4 Địa điểm</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 mt-2 category">
+                    <div class="dfgiua">
+                        <a href="#" class="link__black">
+                            <div class="card-img talc">
+                                <img class="img img-fluid" src="img/icon/night-category.png" alt="">
+                            </div>
+                            <div class="title-category">
+                                <h4 class="pdt10">Qua đêm</h4>
+                                <div class="talc">4 Địa điểm</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 mt-2 category">
+                    <div class="dfgiua">
+                        <a href="#" class="link__black">
+                            <div class="card-img talc">
+                                <img class="img img-fluid" src="img/icon/low-budget-category.png" alt="">
+                            </div>
+                            <div class="title-category">
+                                <h4 class="pdt10">Chi phí thấp</h4>
+                                <div class="talc">4 Địa điểm</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content3 -->
+    <section id="content3" class="pt-0 pt-md-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-7">
+                    <h2>Du Lịch Mạo Hiểm</h2>
+                    <p class="typograp__sz-5">Du lịch mạo hiểm là hành trình có chứa ít nhất hai trong ba yếu tố sau:
+                        vận động thể lực, môi
+                        trường tự nhiên và trải nghiệm về các nền văn hóa.</p>
+                    <p class="typograp__sz-5">Ở đây chúng tôi có những tour du lịch mạo hiểm an toàn và lý thu hơn cả
+                        người yêu cũ của bạn.</p>
+                    <p class="typograp__sz-5">Với tôn chỉ<br><span class="typograp__sz-2"
+                            style="font-family: 'Dancing Script', cursive, Lobster, cursive;text-align: center;margin-left: 50px;">"
+                            Đi cũng thích - không đi cũng thích"</span> <br>- Bên cạnh
+                        những
+                        địa điểm hoạt động mạo hiểm chúng tôi có đa dạng các địa điểm dừng chân mang đến sự thoải mái và
+                        đầy đủ tiện nghi như ở nhà.</p>
+                    <button>Tìm hiểu thêm</button>
+                </div>
+                <div class="col-12 col-md-5 pr-0 pl-0 d-block d-sm-block d-md-none">
+                    <img class="img img-0 img-fluid d-block d-sm-block d-md-none" src="img/image/nha-trang/leo-nui.jpg"
+                        alt="">
+                </div>
+                <div class="col-12 col-md-5 d-none d-sm-none d-md-block pl-sm-0 pl-md-4 pt-sm-0 pt-md-4"
+                    style="padding-top: 100px;">
+                    <div class="card-3">
+
+                        <img class="img img-1 d-none d-sm-none d-md-block" src="img/image/nha-trang/leo-nui.jpg" alt="">
+                        <img class="img img-2 d-none d-sm-none d-md-block" src="img/image/nha-trang/leo-nui-1.jpg"
+                            alt="">
+                        <img class="img img-3 d-none d-sm-none d-md-block" src="img/image/nha-trang/leo-nui-2.jpg"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Footer -->
     <section id="footer">
-
+        <div class="container">
+            <div class="row mt-2 pt-4">
+                <div class="col-12 col-md-4">
+                    <div class="logo">
+                        <img src="img/logo/Asset 1.png" alt="">
+                        <span class="titile__title-1" style="font-family: 'Pacifico', cursive;">Adventure Time</span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <ul>
+                        <li>
+                            <a href="#" class="link__black">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;91 Nguyễn Chí Thanh
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link__black">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;hoangtd1706@gmail.com
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link__black">
+                                <i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;hoangtd1706@gmail.com
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link__black">
+                                <i class="fa fa-facebook-square" aria-hidden="true"></i>&nbsp;Facebook
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link__black">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>&nbsp;Instagram
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link__black">
+                                <i class="fa fa-pinterest" aria-hidden="true"></i>&nbsp;Pinterest
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </section>
 
 

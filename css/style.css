@@ -49,6 +49,39 @@
     color: white;
 }
 
+/* Read more */
+
+.read-more {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px !important;
+    color: #866526;
+    display: table;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    font-weight: 900;
+    text-decoration: none;
+    position: relative;
+}
+
+.read-more:after {
+    content: "";
+    position: absolute;
+    left: -20px;
+    bottom: -1px;
+    width: 20px;
+    height: 15px;
+    border-left: 2px solid #866526;
+    border-bottom: 2px solid #866526;
+    -webkit-transition: all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    transition: all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+.read-more:hover::after {
+    width: 160%;
+    height: 120%;
+}
+
 /*Sologan*/
 #content1 .sologan {
     position: absolute;
@@ -149,12 +182,18 @@
 #content4 .post-1 .post-header .post-img {
     background-size: cover;
     background-position: center center;
-    height: 220px;
+    height: 260px;
     transition: all 0.7s;
 }
 
 #content4 .post-1 .post-header .post-img:hover {
     transform: scale(1.5);
+}
+
+#content4 .post-1 {
+    padding-bottom: 20px;
+    box-shadow: 6px 6px 4px #888888;
+    outline: rgba(85, 85, 85, 0.2) 0.01rem solid;
 }
 
 .post-header {
@@ -188,6 +227,8 @@
     padding-top: 40px;
     margin-bottom: 0;
     box-sizing: border-box;
+    font-weight: 600;
+    line-height: 30px;
 }
 
 .box:hover .content-box {

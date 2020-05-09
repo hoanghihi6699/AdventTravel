@@ -34,6 +34,7 @@ function slideShow() {
     }
     _autoPlay();
 }
+//hello
 
 function _autoPlay() {
     tagImg.style.backgroundImage = 'linear-gradient(rgba(136, 100, 33, 0.4),rgba(192, 192, 192, 0.4)),url(\'' + _imgArray[index].src + '\')';

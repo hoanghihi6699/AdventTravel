@@ -78,7 +78,7 @@
 }
 
 .read-more:hover::after {
-    width: 160%;
+    width: 140%;
     height: 120%;
 }
 
@@ -172,12 +172,10 @@
 
 /* Content4 */
 #content4 {
+    padding-top: 60px;
     background-color: #fff;
 }
-/* 
-#content3 .post-1 .post-header{
-    max-width: 300px;
-} */
+
 
 #content4 .post-1 .post-header .post-img {
     background-size: cover;
@@ -191,6 +189,7 @@
 }
 
 #content4 .post-1 {
+    margin-top: 20px;
     padding-bottom: 20px;
     box-shadow: 6px 6px 4px #888888;
     outline: rgba(85, 85, 85, 0.2) 0.01rem solid;

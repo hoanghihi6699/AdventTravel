@@ -82,6 +82,10 @@
     height: 120%;
 }
 
+li{
+    list-style-type: none;
+}
+
 /*Sologan*/
 #content1 .sologan {
     position: absolute;

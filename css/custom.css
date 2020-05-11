@@ -122,8 +122,8 @@ form input[type="text"]:focus {
 }
 
 #footer {
-    height: 180px;
     background-color: rgb(235, 235, 235);
+    padding-bottom: 30px;
 }
 
 #footer .logo img {
